@@ -1,0 +1,75 @@
+import React from "react";
+
+export default function JaffaTokenSite() {
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white p-8 font-sans">
+      <div className="max-w-4xl mx-auto text-center space-y-8">
+        <h1 className="text-5xl font-bold text-[#f9a825] drop-shadow-md animate-pulse">
+          Jaffa Token
+        </h1>
+
+        <p className="text-xl text-gray-200">
+          Le token <span className="text-[#ffca28] font-semibold">Jaffa</span> est une cryptomonnaie innovante avec une mission :<br />
+          <span className="text-[#4caf50]">Soutenir nos amis les chiens.</span>
+        </p>
+
+        <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          Jaffa Token est né de l'envie de créer une crypto avec une vraie utilité sociale. Chaque transaction soutient une cause : aider les associations pour chiens. Le but est d'allier technologie et solidarité dans un projet transparent, décentralisé, et accessible à tous.
+        </p>
+
+        <div className="bg-white/10 p-6 rounded-2xl shadow-lg backdrop-blur-md">
+          <h2 className="text-2xl font-semibold mb-2 text-[#ffe082]">Détails du Token</h2>
+          <ul className="text-lg space-y-2">
+            <li>🔢 Offre totale : <span className="font-bold text-white">30 000 000 Jaffa</span></li>
+            <li>❤️ 30% des frais de transaction sont reversés à une association pour les chiens</li>
+            <li>💧 De la liquidité doit encore être ajoutée pour stabiliser les échanges</li>
+          </ul>
+        </div>
+
+        <div className="pt-6 space-y-6">
+          <a
+            href="https://pancakeswap.finance/swap?inputCurrency=0x0914a5D70dAc149ECA0f27254E8fAc0143758F48&outputCurrency=BNB"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#f57f17] hover:bg-[#ef6c00] text-white text-lg font-semibold px-8 py-3 rounded-full shadow-lg transition duration-300 hover:scale-105"
+          >
+            🚀 Acheter sur PancakeSwap
+          </a>
+
+          <div className="flex justify-center gap-6">
+            <a
+              href="https://bscscan.com/address/0x0914a5D70dAc149ECA0f27254E8fAc0143758F48#code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#2196f3] hover:bg-[#1976d2] px-5 py-3 rounded-2xl shadow-md text-sm text-white font-semibold transition duration-300 flex-1 max-w-xs text-center"
+            >
+              🔍 BscScan (contrat)
+            </a>
+
+            <a
+              href="https://x.com/Jaffa_Token"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#1da1f2] hover:bg-[#0d8ddb] px-5 py-3 rounded-2xl shadow-md text-sm text-white font-semibold transition duration-300 flex-1 max-w-xs text-center"
+            >
+              🐦 Twitter (X)
+            </a>
+
+            <a
+              href="https://web.telegram.org/k/#-2626338430"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#0088cc] hover:bg-[#006699] px-5 py-3 rounded-2xl shadow-md text-sm text-white font-semibold transition duration-300 flex-1 max-w-xs text-center"
+            >
+              💬 Telegram (canal)
+            </a>
+          </div>
+        </div>
+
+        <footer className="pt-10 text-gray-400 text-sm">
+          © 2025 Jaffa Token. Tous droits réservés.
+        </footer>
+      </div>
+    </main>
+  );
+}
